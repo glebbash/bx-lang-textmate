@@ -1,0 +1,39 @@
+{
+    "name": "blocks",
+    "displayName": "Blocks",
+    "description": "Blocks language support",
+    "version": "0.8.0",
+    "publisher": "glebbash",
+    "repository": {
+        "git": "https://github.com/glebbash/bx-lang-textmate"
+    },
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "blocks",
+                "aliases": [
+                    "Blocks",
+                    "blocks"
+                ],
+                "extensions": [
+                    ".bx",
+                    ".blocks"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "blocks",
+                "scopeName": "source.blocks",
+                "path": "./syntaxes/blocks.tmLanguage.json"
+            }
+        ]
+    }
+}
