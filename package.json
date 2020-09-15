@@ -2,7 +2,7 @@
     "name": "blocks",
     "displayName": "Blocks",
     "description": "Blocks language support",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "publisher": "glebbash",
     "repository": {
         "git": "https://github.com/glebbash/bx-lang-textmate"
