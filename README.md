@@ -1,2 +1,2 @@
-# bx-lang-textmate
-Blocks programming language grammar for TextMate
+# blocks
+Blocks programming language syntax highlighting
