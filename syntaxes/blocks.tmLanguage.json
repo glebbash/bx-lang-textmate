@@ -78,8 +78,16 @@
 		"keywords": {
 			"patterns": [
 				{
+					"name": "keyword.other.blocks",
+					"match": "(?<!\\.)\\b(def)\\b"
+				},
+				{
+					"name": "storage.modifier.mut.blocks",
+					"match": "(?<!\\.)\\b(mut)\\b"
+				},
+				{
 					"name": "keyword.control.blocks",
-					"match": "(?<!\\.)\\b(if|else|while|for|break|continue|fun|return|gen|yield|async|await|in|is|class|import|export|and|or)\\b"
+					"match": "(?<!\\.)\\b(if|else|while|for|break|continue|fun|return|gen|yield|async|await|in|is|class|import|from|export|and|or)\\b"
 				},
 				{
 					"name": "storage.type.blocks",
